@@ -12,6 +12,7 @@ import { HomeComponent } from './components/home/home.component';
 import { LatestBlogComponent } from './components/latest-blog/latest-blog.component';
 import { SkilssComponent } from './components/skilss/skilss.component';
 import { HeaderComponent } from './components/header/header.component';
+import { ExperienceComponent } from './components/experience/experience.component';
 
 
 @NgModule({

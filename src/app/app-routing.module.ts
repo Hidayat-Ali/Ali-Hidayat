@@ -5,6 +5,8 @@ import { BlogsComponent } from './components/blogs/blogs.component';
 import { ContactComponent } from './components/contact/contact.component';
 
 
+
+
 const routes: Routes = [
   { component: HomeComponent, path: '', },
   { component: BlogsComponent, path: 'blog/:id' },
