@@ -38,9 +38,9 @@
 
                         <div class="dark-mode">
                             <button *ngIf="isDarkMode" class="btn dark-mode-btn" (click)="toggleMode()"><img
-                                    src="assets/images/header/dark-icon.svg" alt=""></button>&nbsp;&nbsp;&nbsp;
+                                    src="assets/images/header/dark-icon.svg" alt="dark-icon"></button>&nbsp;&nbsp;&nbsp;
                             <button *ngIf="!isDarkMode" class="btn dark-mode-btn" (click)="toggleMode()"><img
-                                    src="assets/images/header/light-icon.svg" alt=""></button> &nbsp;&nbsp;
+                                    src="assets/images/header/light-icon.svg" alt="light-icon"></button> &nbsp;&nbsp;
                         </div>
                         <div class="download-cv">
                             <button class=" btn download-cv-btn"> Download CV</button>
@@ -62,7 +62,7 @@
                 <div class="modal-header">
 
                     <div class="logo">
-                        <h1 class="modal-title"> <span>&#9752;</span>Hidhu<span>&#9829;</span></h1>
+                        <h2 class="modal-title"> <span>&#9752;</span>Hidhu<span>&#9829;</span></h2>
                     </div>
 
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -82,12 +82,12 @@
                                         <button *ngIf="isDarkMode" class="btn dark-mode-btn" (click)="toggleMode()">
                                             <span class="text-theme">Dark</span> &nbsp;&nbsp;&nbsp;<img
                                                 class="dark-icon-mobile" src="assets/images/header/dark-icon.svg"
-                                                alt="">
+                                                alt="dark-icon">
                                         </button>
                                         <button *ngIf="!isDarkMode" class="btn dark-mode-btn" (click)="toggleMode()">
                                             <span class="text-theme">Light</span> &nbsp;&nbsp;&nbsp;<img
                                                 class="light-icon-mobile" src="assets/images/header/light-icon.svg"
-                                                alt="">
+                                                alt="light-icon">
                                         </button>
                                     </div>
                                 </li>
