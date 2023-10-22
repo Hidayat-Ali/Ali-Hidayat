@@ -48,11 +48,6 @@
   }
 }
 
-.img-left img {
-  width: 70%;
-  height: 30rem;
-}
-
 .about-me-text p {
   color: var(--gray-600);
   font-family: Inter;
