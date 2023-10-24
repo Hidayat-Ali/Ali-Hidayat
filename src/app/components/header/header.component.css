@@ -1,6 +1,14 @@
 .header {
   background: var(--gray-50);
 }
+button:focus:not(:focus-visible) {
+  outline: none;
+}
+.navbar-toggler {
+  outline: none;
+  border: none;
+  color: transparent;
+}
 .nav-link {
   color: var(--gray-600, #4b5563);
   font-family: "Inter", sans-serif;
@@ -29,7 +37,7 @@
 }
 .vertical-line {
   height: 40px;
-  border-right: 2px solid #f3f4f6;
+  border-right: 2px solid #07e32f;
 }
 .navbar-brand img {
   width: 100%;
@@ -101,8 +109,10 @@
 }
 .dark-mode-btn {
   padding: 0;
+  outline: none;
 }
 .dark-icon-mobile,
 .light-icon-mobile {
-  width: 20px;
+  width: 30px;
+  height: 30px;
 }

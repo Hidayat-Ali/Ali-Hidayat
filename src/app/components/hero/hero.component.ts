@@ -88,9 +88,17 @@ export class HeroComponent {
       }
     );
 
-    let element = document.querySelector('.hero-img');
-
+    let element = document.querySelector('.show-mobile');
+    let show_desktop = document.querySelector('.show-desktop');
     gsap.fromTo(element, {
+      xPercent: 100,
+      autoAlpha: 0
+    }, {
+      xPercent: 0,
+      autoAlpha: 1,
+      duration: 1
+    });
+    gsap.fromTo(show_desktop, {
       xPercent: 100,
       autoAlpha: 0
     }, {

@@ -2,6 +2,9 @@
   padding-top: 4vw;
   background-color: var(--gray-50);
 }
+.show-mobile {
+  display: none;
+}
 .name {
   color: var(--headding-color);
   font-family: "Inter", sans-serif;
@@ -62,6 +65,12 @@
 @media (max-width: 780px) {
   .mobile-view-hero {
     flex-direction: column-reverse;
+  }
+  .show-desktop {
+    display: none;
+  }
+  .show-mobile {
+    display: block;
   }
   .name {
     padding-top: 10vw;
