@@ -20,7 +20,8 @@
                                 Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" [routerLink]="['/']" routerLinkActive="router-link-active">Work</a>
+                            <a class="nav-link" [routerLink]="['/all_work']"
+                                routerLinkActive="router-link-active">Work</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" [routerLink]="['/blog']" routerLinkActive="router-link-active">Blogs</a>
@@ -74,9 +75,9 @@
 
                         <div class="">
                             <ul class="mobile-view">
-                                <li>About | Home</li>
-                                <li>work</li>
-                                <li>contact</li>
+                                <li> <a class="nav-link" [routerLink]="['/']">About | Home </a></li>
+                                <li> <a class="nav-link" [routerLink]="['/all_wrok']">Work</a></li>
+                                <li><a class="nav-link" [routerLink]="['/contact']">Contact</a></li>
 
                                 <li>
                                     <div class="dark-mode">
@@ -94,7 +95,8 @@
                                 </li>
 
                                 <div class="download-cv">
-                                    <button class=" btn download-cv-btn"> Download CV</button>
+                                    <button class=" btn download-cv-btn"><img src="/assets/images/header/download.svg"
+                                            alt="Hidayat Ali Mir Cv"> CV</button>
                                 </div>
 
 

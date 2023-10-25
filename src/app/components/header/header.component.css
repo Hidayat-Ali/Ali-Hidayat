@@ -93,7 +93,7 @@ button:focus:not(:focus-visible) {
   position: absolute;
   right: 0;
 }
-.mobile-view li {
+.mobile-view li a {
   text-transform: uppercase;
   list-style: none;
   font-size: 5vw;
@@ -106,6 +106,7 @@ button:focus:not(:focus-visible) {
 }
 .mobile-view {
   padding-left: 0;
+  list-style: none;
 }
 .dark-mode-btn {
   padding: 0;

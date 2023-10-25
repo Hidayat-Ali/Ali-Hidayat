@@ -13,6 +13,7 @@ import { LatestBlogComponent } from './components/latest-blog/latest-blog.compon
 import { SkilssComponent } from './components/skilss/skilss.component';
 import { HeaderComponent } from './components/header/header.component';
 import { ExperienceComponent } from './components/experience/experience.component';
+import { WorkComponent } from './components/work/work.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { ExperienceComponent } from './components/experience/experience.componen
     HomeComponent,
     LatestBlogComponent,
     SkilssComponent,
-    HeaderComponent
+    HeaderComponent,
+    WorkComponent
 
   ],
   imports: [
